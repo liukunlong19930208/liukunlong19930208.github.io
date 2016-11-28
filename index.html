@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="todo">
+    <link rel="apple-touch-icon" href="images/ka.jpg">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="todo">
+    <meta name="theme-color" content="#2F3BA2">
+    <link rel="icon" sizes="192x192" href="images/ka.jpg">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+</head>
+<body>
+<!--封面-->
+<div class="d-left"><div class="zhezhao"></div></div>
+<div class="d-right"><div class="zhezhao"></div></div>
+<div class="btn"></div>
+<div class="conText">
+    <p class="word1"></p>
+    <p class="word2"></p>
+</div>
+<!--鼠标跟随-->
+<section class="container" style="display: none">
+    <div class="button">✹</div>
+    <div class="button clicked">◎</div>
+    <div class="button">✧</div>
+    <div class="button">◈</div>
+    <div class="button">✮</div>
+</section>
+<!--导航-->
+<div class="topnav">
+        <div class="dzp">Zhipeng Du</div>
+        <ul class="nav">
+            <li class="nav-style"><a href="#page1">基本资料</a></li>
+            <li><a href="#page2">专业技能</a></li>
+            <li><a href="#page3">项目整站</a></li>
+            <li><a href="#page4">H 5 & 其他</a></li>
+            <li><a href="#page5">移动App</a></li>
+            <li><a href="#page6">PhotoShop</a></li>
+            <li><a href="#page7">自我总结</a></li>
+        </ul>
+        <div class="divbox">
+            <span class="top-div"></span>
+            <span class="mid-div"></span>
+            <span class="bot-div"></span>
+        </div>
+        <ul class="ulbox">
+            <li><a href="#page1">基本资料</a></li>
+            <li><a href="#page2">专业技能</a></li>
+            <li><a href="#page3">项目整站</a></li>
+            <li><a href="#page4">H 5 & 其他</a></li>
+            <li><a href="#page5">移动App</a></li>
+            <li><a href="#page6">PhotoShop</a></li>
+            <li><a href="#page7">自我总结</a></li>
+        </ul>
+</div>
+<!--内容-->
+<div id="fullpage" style="opacity: 0">
+    <div class="section bgtu1">
+        <div class="jiao"><img src="img/page1/1.png" alt=""></div>
+        <div class="jiao"><img src="img/page1/2.png" alt=""></div>
+        <div class="jiao"><img src="img/page1/3.png" alt=""></div>
+        <div class="jiao"><img src="img/page1/4.png" alt=""></div>
+        <div class="qianduan">
+            <span id="p1-zi1" style="font-size: 60px;color: #999">前</span><span id="p1-zi2" style="font-size:48px;color: #666">duan</span><span style="font-size: 96px;color: #333">攻城狮</span>>
+        </div>
+        <!--个人介绍-->
+        <div class="page1-big">
+        <div class="photo1">
+            <span class="span">个人信息</span>
+        </div>
+        <div id="photo1">
+            <div class="myPhoto"><img src="img/page1/ren.jpg" alt="" style="width: 100%;height: 100%;transform: rotate(90deg)"></div>
+            <div class="myXinxi">
+                <ul>
+                    <li>姓名：杜志鹏</li>
+                    <li>出生日期：1994.10.23</li>
+                    <li>性别：男</li>
+                    <li>民族：汉</li>
+                    <li>学历：本科</li>
+                    <li>毕业院校：中北大学信息商务学院</li>
+                </ul>
+            </div>
+            <div class="sanjiao1"></div>
+        </div>
+        <div class="photo2">
+            <span class="span">自我介绍</span>
+        </div>
+        <div id="photo2">
+            <span>本人性格开朗，具有钻研精神和一定的自我学习能力，吃苦耐劳对事情一丝不苟，在企业里和同事可以融洽的相处并合作，为公司带来好的效益。在校期间担任街舞社团社长，具有一定的领导力和策划力，可独立设计完善大型活动，曾与太原凯诺，茂业，老鼠街等多家公司合作，可以正确明了的表达观点。<br>接触过很多外包项目，可快速独立完成指标任务，对于程序有着由衷的热爱并愿意花费更大的精力去不断进步，我会在程序员的道路上走得越来越远。</span>
+            <div class="sanjiao2"></div>
+        </div>
+        <div class="photo3">
+            <span class="span">联系方式</span>
+        </div>
+        <div id="photo3">
+            <ul>
+                <li>QQ:691878059</li>
+                <li>微信:xiaoyaoduge</li>
+                <li>微博:杜先森的先森</li>
+                <li>email:691878059@qq.com</li>
+                <li>Tel:18235441807</li>
+            </ul>
+            <div class="erweima"><img src="img/page1/er.png" alt="" style="width: 100%;height: 100%"></div>
+            <div class="wx"><span>微信</span>扫一扫</div>
+            <div class="sanjiao3"></div>
+        </div>
+        </div>
+        <div class="page1-small" id="page1-small">
+            <div class="small-photo1 small-photo"></div>
+            <div class="small-photo2 small-photo"></div>
+            <div class="small-photo3 small-photo"></div>
+        </div>
+        <div class="small-xinxi1">
+                <ul>
+                    <li>姓名：杜志鹏</li>
+                    <li>出生日期：1994.10.23</li>
+                    <li>性别：男</li>
+                    <li>民族：汉</li>
+                    <li>学历：本科</li>
+                    <li>毕业院校：中北大学信息商务学院</li>
+                </ul>
+                <div class="small-sanjiao"></div>
+        </div>
+        <div class="small-xinxi2">
+            <span>为人开朗，性格阳光，有独立学习能力和有效率完成制定项目的能力，在校期间曾担任社团社长，有一定的领导力和策划力。并和多家公司谈过合作，表达清晰，有一定的语言组织能力。</span>
+            <div class="small-sanjiao"></div>
+        </div>
+        <div class="small-xinxi3">
+            <ul>
+                <li>QQ:691878059</li>
+                <li>微信:xiaoyaoduge</li>
+                <li>微博:杜先森的先森</li>
+                <li>email:691878059@qq.com</li>
+                <li>Tel:18235441807</li>
+            </ul>
+            <div class="small-sanjiao"></div>
+        </div>
+    </div>
+    <div class="section bgtu2">
+        <div class="page2-bigimg">
+            <img src="img/page2/big.png" alt="">
+        </div>
+        <div class="page2-smallimg">
+            <img src="img/page2/small.png" alt="">
+        </div>
+        <div class="left-img">
+            <img src="img/page2/zimg.png" alt="">
+        </div>
+        <div class="skills">
+            <span class="subject-9">Gulp</span>
+            <span class="subject-11">PhotoShop</span>
+            <span class="subject-2">Bootstrap</span>
+            <span class="subject-3">CANVAS</span>
+            <span class="subject-4">jQuery</span>
+            <span class="subject-10">Angular</span>
+            <span class="subject-5">移动端</span>
+            <span class="subject-6">CSS3</span>
+            <span class="subject-7">响应式</span>
+            <span class="subject-8">Nodejs</span>
+            <span class="subject-1">HTML5</span>
+        </div>
+        <div class="page2-span1">
+            <div class="pc"><p>PC端</p></div><br>
+            熟练使用 Html5 Css3 JavaScript，能够合理完成web端或者移动端页面的编写和维护，<br>
+            思路清晰，结构完整，易于维护和持久化开发，能处理主流浏览器兼容问题。
+            熟练使用原生js, 了解js面向对象原理，闭包以及原型结构，能够合理利用面向对象以及模块化开发,并且能适当完成框架封装。熟练使用 jQuery，并能完成相关项目。
+            <br>熟悉animation fullpage jquery-ui template jQeasing masonry等实用插件的应用,轮播图，tab栏，瀑布流，延迟加载，全屏滚动等等常用功能的实现
+            <br>掌握 Ajax交互原理，根据后台接口能够合理完成前后台交互，数据的增删改查。
+            <br>掌握 angularJS 框架原理，可以完成无需刷新的单页面应用
+            <br>了解Node.js 的工作原理会使用npm环境
+        </div>
+        <div class="page2-span2">
+            <div class="tel"><p>移动端</p></div><br>
+            熟练使用zepto.js，Frozen ui，Amaze ui等移动框架进行移动页面的开发
+            <br>掌握 移动端编程，会基于流式布局以及 响应式布局 开发基于移动端的页面。
+            <br>熟练使用Bootstrap 框架以及轻量级框架 zepto 的使用。
+        </div>
+    </div>
+    <div class="section bgtu3">
+        <div class="page3-left">
+            <div class="pl-big">
+                <span class="dazi">项</span><br>
+                <span class="dazi">目</span><br>
+                <span class="dazi">整</span><br>
+                <span class="dazi">站</span>
+            </div>
+            <div class="pl-small">
+                <span class="xiaozi">为</span><br>
+                <span class="xiaozi">用</span><br>
+                <span class="xiaozi">户</span><br>
+                <span class="xiaozi">贴</span><br>
+                <span class="xiaozi">身</span><br>
+                <span class="xiaozi">设</span><br>
+                <span class="xiaozi">计</span>
+            </div>
+        </div>
+        <div class="page3-right">
+            <div class="bannerbox">
+                <div class="banner-left">
+                    <div class="wwwbox" style="z-index: 1">
+                        <span>北京车网互联科技有限公司是一家以移动互联领域的多年积累和丰富的行业资源为基础，以前沿的移动、定位、云计算、数据采集融合技术为工具的车载信息服务平台运营商，也是国内最早进入车联网领域的国家高新技术企业。经过多年的蓬勃发展，已拥有多项发明专利和软件著作权，现已成为拥有丰富资源的车联网综合产品与服务运营商。</span>
+                        <a href=""><img src="img/page3/che.png" alt=""></a>
+                    </div>
+                    <div class="wwwbox">
+                        <span>北京希可尔世纪文化传播有限公司，于二00六年成立，总部设在北京。 北京希可尔世纪文化有限公司是由国家新闻出版总署批准发证的二级批发单位，注册资金2100万，希可尔世纪文化传播有限公司始终坚持“诚信创新、以人为本”的经营理念，恪守“全心全意为客户着想”的服务宗旨，致力于图书文化领域图书发行事业。</span>
+                        <a href=""><img src="img/page3/xikeer.png" alt=""></a>
+                    </div>
+                    <div class="wwwbox">
+                        <span>伊莎美尔始终如一专注成年女性衰老的研究，聚焦平皱，专注抗衰，凭借神奇的祛皱效果，一跃站在平皱抗衰领域的最前沿，成为国际平皱领域的第一品牌，开创了一个全新的美容时代.</span>
+                        <a href=""><img src="img/page3/yisha.png" alt=""></a>
+                    </div>
+                    <div class="wwwbox">
+                        <span>OMAONT0是一个能缔造奇迹的女鞋品牌，由广州市欢腾鞋业有限公司聘请著名设计师设计。OMAONT0崇尚简约而不失简单的设计，以新鲜多变、端庄典雅的格式，紧跟时尚的设计理念，融入当季顶尖的流行元素，辅以潮流、别致的颜色和面料，让您在任何场所，衣着品味的韵味都能于不经意间自然流露!</span>
+                        <a href=""><img src="img/page3/huan.png" alt=""></a>
+                    </div>
+                </div>
+                <ul class="banner-right">
+                    <li style="width: 120%;margin-left: -10%"><img src="img/page3/logo1.png" alt=""></li>
+                    <li><img src="img/page3/logo2.png" alt=""></li>
+                    <li><img src="img/page3/logo3.png" alt=""></li>
+                    <li><img src="img/page3/logo4.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <div class="page3-hide">
+            <ul>
+                <a href=""><li><img src="img/page3/che.png" alt=""></li></a>
+                <a href=""><li><img src="img/page3/xikeer.png" alt=""></li></a>
+                <a href=""><li><img src="img/page3/yisha.png" alt=""></li></a>
+                <a href=""><li><img src="img/page3/huan.png" alt=""></li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="section bgtu4">
+        <div class="page4-left">
+            <div class="pl-big">
+                <span class="dazi">H5</span><br>
+                <span class="dazi">作</span><br>
+                <span class="dazi">品</span><br>
+            </div>
+            <div class="pl-small">
+                <span class="xiaozi">为</span><br>
+                <span class="xiaozi">完</span><br>
+                <span class="xiaozi">美</span><br>
+                <span class="xiaozi">努</span><br>
+                <span class="xiaozi">力</span><br>
+                <span class="xiaozi">奋</span><br>
+                <span class="xiaozi">斗</span>
+            </div>
+        </div>
+        <div class="page4-right">
+            <div class="boxBor"></div>
+            <div class="jq22">
+                <div class="jq-box"><a href="http://xiaoyaoduge.github.io/textGame/"><div class="zhezhao1">文字游戏</div></a><img src="img/page4/textGame.png" alt="" /></div>
+                <div class="jq-box"><a href="http://xiaoyaoduge.github.io/runningMan/"><div class="zhezhao2">跑酷游戏</div></a><img src="img/page4/run.png" alt="" /></div>
+                <div class="jq-box"><a href="http://xiaoyaoduge.github.io/todolist/"><div class="zhezhao1">备忘录</div></a><img src="img/page4/todolist.png" alt="" /></div>
+                <div class="jq-box"><a href="http://xiaoyaoduge.github.io/huaban/"><div class="zhezhao2">画板</div></a><img src="img/page4/huaban.png" alt="" /></div>
+                <div class="jq-box" style="border: none"><div class="clockBox"></div></div>
+                <div class="jq-box"><a href="http://xiaoyaoduge.github.io/iphone/"><div class="zhezhao2">iphone官网</div></a><img src="img/page4/iphone.jpg" alt="" /></div>
+                <div class="jq-box"><a href="http://xiaoyaoduge.github.io/baidu/"><div class="zhezhao1">百度舆情</div></a><img src="img/page4/baidu.png" alt="" /></div>
+                <div class="jq-box"><a href="http://xiaoyaoduge.github.io/tmall/"><div class="zhezhao2">天猫</div></a><img src="img/page4/tmall.png" alt="" /></div>
+                <div class="jq-box"><a href="http://xiaoyaoduge.github.io/yintai/"><div class="zhezhao1">银泰</div></a><img src="img/page4/yintai.png" alt="" /></div>
+            </div>
+        </div>
+        <!--<div class="page4-hide">-->
+            <!--<ul>-->
+                <!--<a href=""><li><img src="img/page4/1.jpg" alt=""></li></a>-->
+                <!--<a href=""><li><img src="img/page4/2.jpg" alt=""></li></a>-->
+                <!--<a href=""><li><img src="img/page4/3.jpg" alt=""></li></a>-->
+                <!--<a href=""><li><img src="img/page4/4.jpg" alt=""></li></a>-->
+            <!--</ul>-->
+        <!--</div>-->
+    </div>
+    <div class="section bgtu5">
+        <div class="page5-left">
+            <div class="pl-big">
+                <span class="dazi">App</span><br>
+                <span class="dazi">移</span><br>
+                <span class="dazi">动</span><br>
+                <span class="dazi">端</span>
+            </div>
+            <div class="pl-small">
+                <span class="xiaozi">为</span><br>
+                <span class="xiaozi">效</span><br>
+                <span class="xiaozi">率</span><br>
+                <span class="xiaozi">不</span><br>
+                <span class="xiaozi">断</span><br>
+                <span class="xiaozi">进</span><br>
+                <span class="xiaozi">步</span>
+            </div>
+        </div>
+        <div class="page5-right">
+            <div class="phonebox">
+                <img src="img/page5/1.png" alt="">
+            </div>
+            <div class="phonetu">
+                <img src="img/page5/sj1.jpg" alt="" style="z-index: 1">
+                <img src="img/page5/sj2.jpg" alt="">
+                <img src="img/page5/sj3.jpg" alt="">
+                <img src="img/page5/hehe.png" alt="">
+                <ul>
+                    <li id="click"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section bgtu6">
+        <div class="page6-left">
+            <h1><span>P</span>hoto<span>S</span>hop</h1>
+            <div class="page6span">
+                <span>可以熟练的使用PhotoShop的切图，绘制等多种功能</span><br>
+                <span>有独立完成一些设计的能力，学习过一定时间的素描，有一定的绘画能力和设计功底</span><br>
+                <span>具有与设计师良好的沟通能力，可高效率的协商产品并快速实施。</span>
+            </div>
+        </div>
+        <div class="psbox">
+            <div class="ps">
+                <div class="yuan" id="js1"></div>
+                <div class="yuan" id="js2"></div>
+                <div class="yuan" id="js3"></div>
+                <div class="yuan" id="js4"></div>
+                <div class="yuan" id="js5"></div>
+                <div class="yuan" id="js6"></div>
+                <div class="yuan" id="js7"></div>
+                <div class="yuan" id="js8"></div>
+                <div class="yuan" id="js9"></div>
+                <div class="yuan" id="js10"></div>
+                <div class="yuan" id="js11"></div>
+                <div class="yuan" id="js12">
+                    <audio src="img/page5/1.mp3"></audio>
+                    <div class="audio">
+                        <div class="play"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="yuanxin" id="yuanxin1"></div>
+            <div class="yuanxin" id="yuanxin2"></div>
+            <div class="yuanxin" id="yuanxin3"></div>
+            <div class="yuanxin" id="yuanxin4"></div>
+            <div class="yuanxin" id="yuanxin5"></div>
+            <div class="yuanxin" id="yuanxin6">></div>
+            <div class="yuanxin" id="yuanxin7"></div>
+            <div class="yuanxin" id="yuanxin8"></div>
+            <div class="yuanxin" id="yuanxin9"></div>
+            <div class="yuanxin" id="yuanxin10"></div>
+            <div class="yuanxin" id="yuanxin11"></div>
+            <div class="yuanxin" id="yuanxin12"></div>
+        </div>
+    </div>
+    <div class="section bgtu7">
+        <h1>Focus Me</h1>
+        <div class="word">
+            <p>
+                有责任，工作踏实，性格开朗乐观，积极上进。
+            </p>
+        </div>
+        <div class="word">
+            <p>
+                易和人相处，拥有良好的亲和力。<br>
+            </p>
+        </div>
+        <div class="word">
+            <p>
+                喜欢js，非常热爱编程，喜欢钻研新的技术，</br>具有很强的自学能力和良好的学习方法，喜欢研究各种新的框架。
+            </p>
+        </div>
+        <div class="page7-top"></div>
+        <div class="page7-bot"></div>
+    </div>
+</div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/text.js"></script>
+<script src="js/prefixfree.min.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+<script src="js/index.js"></script>
+</html>
